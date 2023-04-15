@@ -1,8 +1,15 @@
-# auto clicker in linux 
+# xlib usage implementation
+
 
 ### basic implementation
+
 All you need to do is include <X11/Xlib.h>
 
+How to create window
+
+Auto clicker
+
+keys display
 ---
 
 **Hello World c file**
