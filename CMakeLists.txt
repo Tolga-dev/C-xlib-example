@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.23)
-project(untitled)
+project(autoClicker)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_C_FLAGS  -lX11 -lXtst)
+set(CMAKE_C_STANDARD)
 
-add_executable(untitled main.cpp)
+add_executable(autoClicker Introduction.c)
+
